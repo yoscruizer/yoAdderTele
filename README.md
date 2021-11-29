@@ -29,7 +29,7 @@
 
 `$ git clone https://github.com/yoscruizer/yoAdderTele/`
 
-`$ cd Telegram-Scraper-Adder`
+`$ cd yoAdderTele`
 
 * Install requierments & Setup Configuration File. ( apiID, apiHash )
 
