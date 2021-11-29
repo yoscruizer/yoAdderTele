@@ -27,7 +27,7 @@
 
 `$ pkg install git`
 
-`$ git clone https://github.com/termuxprofessor/TeleGram-Scraper-Adder`
+`$ git clone https://github.com/yoscruizer/yoAdderTele/`
 
 `$ cd Telegram-Scraper-Adder`
 
