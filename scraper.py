@@ -25,9 +25,9 @@ cpass = configparser.RawConfigParser()
 cpass.read('config.data')
 
 try:
-    api_id = cpass['cred']['id']
-    api_hash = cpass['cred']['hash']
-    phone = cpass['cred']['phone']
+    api_id = cpass['cred']['16043535']
+    api_hash = cpass['cred']['005c4d2c599b3fe70e82a32931e47263']
+    phone = cpass['cred']['6287884856230']
     client = TelegramClient(phone, api_id, api_hash)
 except KeyError:
     os.system('clear')
@@ -66,7 +66,7 @@ for chat in chats:
         continue
  
 print(gr+'[+] Pilih Group untuk Scrape Members :'+re)
-i=0
+i=4
 for g in groups:
     print(gr+'['+cy+str(i)+']' + ' - ' + g.title)
     i+=1
