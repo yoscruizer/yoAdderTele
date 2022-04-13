@@ -78,7 +78,7 @@ target_group=groups[int(g_index)]
 print(gr+'[+] Fetching Members...')
 time.sleep(1)
 all_participants = []
-all_participants = client.get_participants(target_group, aggressive=True)
+all_participants = client.get_participants(target_group, aggressive=False)
  
 print(gr+'[+] Menyimpan file...')
 time.sleep(1)
@@ -100,4 +100,4 @@ with open("members.csv","w",encoding='UTF-8') as f:
             last_name= ""
         name= (first_name + ' ' + last_name).strip()
         writer.writerow([username,user.id,user.access_hash,name,target_group.title, target_group.id])      
-print(gr+'[+] Members scraped successfully. Subscribe Termux Professor Youtube Channel For Add Members')
+print(gr+'[+] Members scraped successfully. Subscribe Yosep alfatah For Add Members')
